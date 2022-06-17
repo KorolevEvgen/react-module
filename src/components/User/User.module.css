@@ -1,0 +1,7 @@
+.wrap{
+    display: flex;
+    background: powderblue;
+    align-items: center;
+    border-right: midnightblue 2px solid;
+    padding: 3px;
+}
