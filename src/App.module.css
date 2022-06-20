@@ -1,14 +1,23 @@
 .wrap{
     display: flex;
     background: lightskyblue;
-    border-left: midnightblue 2px solid;
-    border-top: midnightblue 2px solid;
-    border-right: midnightblue 2px solid;
+    border: midnightblue 1px solid;
+
 }
 
 .wrapPosts{
     background: aqua ;
     padding-left: 5px;
-   border: 2px midnightblue solid;
+    border-left: midnightblue 1px solid;
+    border-bottom: midnightblue 1px solid;
+    border-right: midnightblue 1px solid;
+}
+
+.wrapComments{
+    background: skyblue ;
+    padding-left: 5px;
+    border-left: midnightblue 1px solid;
+    border-bottom: midnightblue 1px solid;
+    border-right: midnightblue 1px solid;
 }
 

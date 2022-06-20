@@ -7,6 +7,7 @@ const User = ({user,getUser}) => {
     return (
         <div className={css.wrap}>
            <div> {id}) {name} </div>
+            <hr/>
             <button onClick={()=>getUser(user)}>Details</button>
         </div>
     );
