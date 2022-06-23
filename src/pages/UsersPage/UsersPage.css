@@ -1,0 +1,7 @@
+.usersWrap{
+    background: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
