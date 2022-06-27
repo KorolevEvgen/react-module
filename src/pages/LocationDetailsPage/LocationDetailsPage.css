@@ -1,0 +1,13 @@
+.locationDetailsPageWrap{
+    background: lightseagreen;
+    padding: 10px;
+    margin: 10px;
+    border: darkgreen 5px solid;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    color: mediumspringgreen;
+    font-size: 30px;
+    padding-top: 40px;
+}
+

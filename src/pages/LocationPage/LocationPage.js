@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {locationService} from '../../services/location.service';
-import Location from '../../components/Location/Location';
+import LocationCard from '../../components/LocationCard/LocationCard';
 import './LocationPage.css'
 
 const LocationPage = () => {
@@ -12,7 +12,7 @@ const LocationPage = () => {
     return (
         <div>
             <div className={'locationPageWrap'}>
-                {locations.map(location => <Location key={location.id} location={location}/>)}
+                {locations.map(location => <LocationCard key={location.id} location={location}/>)}
             </div>
         </div>
     );

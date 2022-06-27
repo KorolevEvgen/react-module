@@ -5,6 +5,7 @@ import CharacterPage from './pages/CharacterPage/CharacterPage';
 import CharacterDetailsPage from './pages/CharacterDetailsPage/CharacterDetailsPage';
 import Layout from './pages/Layout';
 import LocationPage from './pages/LocationPage/LocationPage';
+import LocationDetailsPage from './pages/LocationDetailsPage/LocationDetailsPage';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                     <Route path={'character/:id'} element={<CharacterDetailsPage/>}/>
 
                     <Route path={'location'} element={<LocationPage/>}/>
+                    <Route path={'location/:id'} element={<LocationDetailsPage/>}/>
 
                 </Route>
 

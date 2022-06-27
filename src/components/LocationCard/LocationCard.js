@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import './Location.css'
+import './LocationCard.css'
 
-const Location = ({location}) => {
+const LocationCard = ({location}) => {
    const {id,name,type,dimension} = location;
 
     return (
@@ -21,4 +21,4 @@ const Location = ({location}) => {
     );
 };
 
-export default Location;
+export default LocationCard;

@@ -3,12 +3,21 @@
     padding: 10px;
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .headerWrap a{
     text-decoration: none;
-    color: white;
     font-size: 25px;
+    padding: 20px;
+    color: powderblue;
+
+}
+
+.headerWrap img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px powderblue solid;
 }
 
