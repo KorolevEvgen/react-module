@@ -1,5 +1,5 @@
-.characterPageWrap{
-    flex-wrap: wrap;
+.locationPageWrap{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }

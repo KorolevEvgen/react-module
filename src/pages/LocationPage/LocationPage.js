@@ -10,7 +10,9 @@ const LocationPage = () => {
     });
     return (
         <div>
+            <div className={'locationPageWrap'}>
                 {locations.map(location => <Location key={location.id} location={location}/>)}
+            </div>
         </div>
     );
 };

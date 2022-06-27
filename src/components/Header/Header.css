@@ -1,8 +1,14 @@
 .headerWrap{
-    background: lightskyblue;
+    background: darkslategray;
     padding: 10px;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
+}
+
+.headerWrap a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
 }
 

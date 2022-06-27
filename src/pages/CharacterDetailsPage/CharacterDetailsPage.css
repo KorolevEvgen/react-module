@@ -1,9 +1,16 @@
 .characterDetailsWrap{
-    background: lightgreen;
-    border: midnightblue 2px solid;
+    background: lightseagreen;
+    border: darkgreen 5px solid;
     flex-wrap: wrap;
     display: flex;
     width: 500px;
-    padding-left: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.characterDetailsText{
+    padding-left: 10px;
+    padding-top: 40px;
+    color: lime;
 }
 

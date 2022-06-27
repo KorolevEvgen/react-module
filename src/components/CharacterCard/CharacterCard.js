@@ -9,10 +9,8 @@ const CharacterCard = ({ character }) => {
 
         <Link to={id.toString()} state={character}>
             <div className={'characterCardWrap'}>
-                <div>
                     <img src={image} alt={name}/>
                     <h2>{name}</h2>
-                </div>
             </div>
         </Link>
 
