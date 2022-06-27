@@ -1,0 +1,6 @@
+.characterPageWrap{
+    background: aqua;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}

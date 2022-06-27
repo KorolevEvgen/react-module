@@ -1,0 +1,8 @@
+.headerWrap{
+    background: lightskyblue;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
