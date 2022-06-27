@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {locationService} from '../../services/location.service';
 import Location from '../../components/Location/Location';
+import './LocationPage.css'
 
 const LocationPage = () => {
     const [locations, setLocations] = useState([]);

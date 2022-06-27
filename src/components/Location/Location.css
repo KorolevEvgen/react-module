@@ -1,7 +1,11 @@
 .locationWrap {
-    background: mediumaquamarine;
-    margin-top: 5px;
-    border: lawngreen 2px solid;
+    background: lightseagreen;
     padding: 10px;
-    color: white;
+    margin: 10px;
+    border: lawngreen 5px solid;
+    color: mediumspringgreen;
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
 }
