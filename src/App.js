@@ -1,5 +1,5 @@
 import './App.css';
-import {Route, Routes} from 'react-router-dom';
+import {Route, Routes, Navigate} from 'react-router-dom';
 
 import CharacterPage from './pages/CharacterPage/CharacterPage';
 import CharacterDetailsPage from './pages/CharacterDetailsPage/CharacterDetailsPage';
@@ -12,6 +12,7 @@ function App() {
         <div>
             <Routes>
                 <Route path={'/'} element={<Layout/>}>
+                    <Route path={''} element={<Navigate to={'character'}/>}/>
 
                     <Route path={'character'} element={<CharacterPage/>}/>
                     <Route path={'character/:id'} element={<CharacterDetailsPage/>}/>
