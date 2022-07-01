@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.abcWrap{
+    background: lightgreen;
+    padding: 15px;
+    width: 200px;
+}
+
+.letterWrap{
+    margin-bottom: 10px;
+}
+
+.letterWrap button{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.buttonReset button{
+    background: red;
+    margin-top: 10px;
+    color: black;
+}
