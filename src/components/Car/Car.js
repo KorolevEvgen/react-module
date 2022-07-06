@@ -1,11 +1,12 @@
 import React from 'react';
-import './Car.css'
-import {useDispatch} from 'react-redux';
+import './Car.css';
+import {useDispatch, useSelector} from 'react-redux';
 
-import {deleteCar} from '../../store';
+import {deleteCarThunk} from '../../store';
 
-const Car = ({ car: { id, model, price, year }}) => {
+export const Car = ({ car: { id, model, price, year } }) => {
     const dispatch = useDispatch();
+    const { info } = useSelector(state => state['carReducer']);
     return (
         <div className={'carWrap'}>
             <div>
@@ -13,10 +14,10 @@ const Car = ({ car: { id, model, price, year }}) => {
                 <div>Price: {price}</div>
                 <div>Year: {year}</div>
             </div>
-            <button onClick={() => dispatch(deleteCar({id}))}>Delete</button>
+            <button onClick={() => dispatch(deleteCarThunk({ id }))}>Delete</button>
         </div>
 
     );
 };
 
-export default Car;
+
