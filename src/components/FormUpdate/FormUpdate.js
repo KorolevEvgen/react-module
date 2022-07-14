@@ -25,9 +25,7 @@ dispatch(updateCarById({id:carForUpdate.id, car:data}))
             <p><label>Model: <input type="text" {...register('model')}/></label></p>
             <p><label>Price: <input type="text" {...register('price')}/></label></p>
             <p><label>Year: <input type="text" {...register('year')}/></label></p>
-            <p>
-                <button>Update</button>
-            </p>
+            <p><button>Update</button></p>
         </form>
     );
 };
