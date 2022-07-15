@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import {useLocation} from 'react-router-dom';
 
+import './PostDetails.css'
+
 const PostDetails = () => {
 
     const [post,setPost] = useState(null);
@@ -14,7 +16,7 @@ const PostDetails = () => {
     })
 
     return (
-        <div>
+        <div className={'postDetails'}>
             {post &&(
           <div>
               <div>Id: {post.id}</div>

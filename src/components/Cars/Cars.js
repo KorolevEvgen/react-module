@@ -17,10 +17,10 @@ const Cars = () => {
     }, []);
 
     return (
-        <div>
+        <div className={'cars'}>
             <div className={'form'}>
-                <div><Form/></div>
-                <div><FormUpdate/></div>
+                <div><h1>Create</h1><Form/></div>
+                <div><h1>Update</h1><FormUpdate/></div>
             </div>
             <div>
             {status === 'pending' && <h1>Loading...</h1>}

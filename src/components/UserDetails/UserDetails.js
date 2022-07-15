@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import {useLocation} from 'react-router-dom';
 
+import './UserDetails.css'
+
 const UserDetails = () => {
     const [user,setUser] = useState(null);
     const {state} = useLocation();
@@ -12,7 +14,7 @@ const UserDetails = () => {
         }
     })
     return (
-        <div>
+        <div className={'userDetails'}>
             {user &&(
                 <div>
                     <div>Id: {user.id}</div>
